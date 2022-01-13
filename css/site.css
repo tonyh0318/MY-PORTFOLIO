@@ -60,6 +60,15 @@ body {
     height: .5em;
 }
 
+
+/* -----project card styles----------- */
+.projectCard{
+    width: 18rem;
+}
+
+
+
+
 /* subtitle styline */
 .subTitle {
     font-family: var(--subtitle-font);
@@ -77,10 +86,10 @@ body {
     background-repeat: no-repeat;
     background-position: left 0px top 74px;
 }
-.section-page{
+.section-page {
     height: 100%;
-    padding-top: 6rem;
-    padding-bottom: 6rem;
+    padding-top: 5rem;  /*DOUBLE CHECK VALUE ************************************************************************************************************** */
+    padding-bottom: 1rem;    /*DOUBLE CHECK VALUE ************************************************************************************************************** */
 }
 
 /* MEDIA QUERIES */
