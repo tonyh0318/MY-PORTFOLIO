@@ -6,7 +6,7 @@
     --ah-primary-color: #91cbfb;
     --ah-secondary-color: #4294ba;
     --ah-dark-color: #212121;
-    --ah-light-color: #f8f8f8;
+    --ah-body-color: #878787;
     --ah-font-size: 1.2rem;
     --ah-font-weight: 400;
     --ah-line-height: 1.5;
@@ -29,13 +29,26 @@ h1,
     font-family: var(--title-font);
 }
 
+.myNav{
+    background-color: #4B5E75;
+}
+
+p {
+    font-weight: bolder;
+}
+
+.contactFormDiv{
+    background-color: #C4B291;
+    
+}
+
 body {
     font-family: var(--ah-body-font);
     font-size: var(--ah-font-size);
     font-weight: var(--ah-font-weight);
     line-height: var(--ah-line-height);
     color: var(--ah-dark-color);
-    background-color: var(--ah-light-color);
+    background-color: var(--ah-body-color);
     --webkit-test-size-adjust: 100;
 }
 
