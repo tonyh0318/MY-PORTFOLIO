@@ -13,6 +13,11 @@
 }
 
 
+.mySocialIcons {
+    width: 5rem;
+    height: 5rem;
+}
+
 /* ------ELEMENT OVERRIDES------ */
 h6,
 .h6,
@@ -29,17 +34,21 @@ h1,
     font-family: var(--title-font);
 }
 
-.myNav{
+.myNav {
     background-color: #004aad;
+    font-size: 1.5rem;
+    
 }
 
-.myNavContainer{
-    margin-left: 0px;
+.myNavContainer {
+    margin-left: 0rem;
+    
 }
 
-.myLogoNav{
-height: 119rem;
-width: 119rem;
+.myLogoNav {
+  
+    height: 119rem;
+    width: 119rem;
 
 }
 
@@ -47,14 +56,14 @@ p {
     font-weight: bolder;
 }
 
-.contactFormDiv{
+.contactFormDiv {
     background-color: #cfcdc8;
-    
+
 }
 
-.myFooter{
-   background-color: #004aad;
-   color: #ffffff;
+.myFooter {
+    background-color: #004aad;
+    color: #ffffff;
 }
 
 
@@ -78,28 +87,30 @@ body {
 
 */
 /* styling the main title */
+
+.mainHeader {
+    /* padding-top: calc(2em + 74px); */
+    margin-top: 9rem;
+    background-image: url(/img/blue_banner_576.jpg);
+    height: 274px;
+    /*200 pixels high plus padding */
+    background-repeat: no-repeat;
+    background-position: left 0px top 0px;
+}
+
 .mainTitle {
+    margin-top: 2rem;
     font-family: var(--title-font);
-    font-size: 2.5rem;
-    line-height: 2rem;
+    font-size: 2rem;
+    height: 3rem;
+    line-height: 11rem;
+    font-weight: 300;
+    letter-spacing: .09rem;
 }
-
-/* sizing the logo for the header */
-.mainLogo {
-    height: .5em;
-}
-
-
-/* -----project card styles----------- */
-.projectCard{
-    width: 18rem;
-}
-
-
-
 
 /* subtitle styline */
 .subTitle {
+    padding-top: 2rem;
     font-family: var(--subtitle-font);
     font-size: .6rem;
     line-height: 1rem;
@@ -107,18 +118,36 @@ body {
     letter-spacing: .09rem;
 }
 
-.mainHeader {
-    padding-top: calc(2em + 74px);
-    background-image: url(/img/blue_banner_576.jpg);
-    height: 274px;
-    /*200 pixels high plus padding */
-    background-repeat: no-repeat;
-    background-position: left 0px top 74px;
+.socialMed{
+
+    padding-top: 2rem;
+    letter-spacing: .5rem;
+    
 }
+
+/* sizing the logo for the header */
+.mainLogo {
+    height: 2.5em;
+}
+
+
+/* -----project card styles----------- */
+.projectCard {
+    width: 18rem;
+}
+
+
+
+
+
+
+
 .section-page {
     height: 100%;
-    padding-top: 5rem;  /*DOUBLE CHECK VALUE ************************************************************************************************************** */
-    padding-bottom: 1rem;    /*DOUBLE CHECK VALUE ************************************************************************************************************** */
+    padding-top: 5rem;
+    /*DOUBLE CHECK VALUE ************************************************************************************************************** */
+    padding-bottom: 1rem;
+    /*DOUBLE CHECK VALUE ************************************************************************************************************** */
 }
 
 /* MEDIA QUERIES */
@@ -150,6 +179,7 @@ body {
     .mainLogo {
         height: .6em;
     }
+
     .subTitle {
         font-size: 1.2rem;
         line-height: 1rem;
@@ -157,6 +187,7 @@ body {
         letter-spacing: .1rem;
     }
 }
+
 /* 991 and up */
 @media (min-width: 991.98px) {
     .mainHeader {
@@ -164,7 +195,10 @@ body {
         height: 474px;
     }
 }
-@media (min-width: 1199.98px) {    /* 1199 and up */
+
+@media (min-width: 1199.98px) {
+
+    /* 1199 and up */
     .mainHeader {
         background-image: url(/img/blue_banner_2560.jpg);
         height: 574px;
@@ -177,10 +211,10 @@ body {
         line-height: 5rem;
     }
 
-       /* sizing the logo for the header */
-       .mainLogo {
-           height: .6em;
-       }    
+    /* sizing the logo for the header */
+    .mainLogo {
+        height: .6em;
+    }
 
     .subTitle {
         font-size: 1.7rem;
@@ -189,6 +223,7 @@ body {
         letter-spacing: .1rem;
     }
 }
+
 /* 1399 and up */
 @media (min-width: 1399.98px) {
     .mainHeader {
