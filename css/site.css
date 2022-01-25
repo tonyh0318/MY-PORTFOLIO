@@ -3,10 +3,10 @@
     /*Use Bebasm, but if not available then use sans-serif*/
     --ah-body-font: 'Fira Sans', sans-serif;
     --ah-body-font: 'Roboto', sans-serif;
-    --ah-primary-color: #91cbfb;
-    --ah-secondary-color: #4294ba;
+    --ah-primary-color: #eef0f1;
+    --ah-secondary-color: #ffffff;
     --ah-dark-color: #212121;
-    --ah-body-color: #878787;
+    --ah-body-color: #ffffff;
     --ah-font-size: 1.2rem;
     --ah-font-weight: 400;
     --ah-line-height: 1.5;
@@ -30,7 +30,17 @@ h1,
 }
 
 .myNav{
-    background-color: #4B5E75;
+    background-color: #004aad;
+}
+
+.myNavContainer{
+    margin-left: 0px;
+}
+
+.myLogoNav{
+height: 119rem;
+width: 119rem;
+
 }
 
 p {
@@ -38,9 +48,15 @@ p {
 }
 
 .contactFormDiv{
-    background-color: #C4B291;
+    background-color: #cfcdc8;
     
 }
+
+.myFooter{
+   background-color: #004aad;
+   color: #ffffff;
+}
+
 
 body {
     font-family: var(--ah-body-font);
