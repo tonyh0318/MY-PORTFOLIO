@@ -23,6 +23,7 @@
 
     <!-- Custom style sheet -->
     <link rel="stylesheet" href="css/site.css">
+    <link rel="icon" type="image/png" href="img/myIcon.png" />
 </head>
 
 <body>
@@ -72,21 +73,16 @@
         <div class="container-fluid d-flex justify-content-end h-100">
             <div>
                 <div class="mainTitle">
-
-                    ANTHONY<span><img src="/img/Dw_signature_black.png" class="mainLogo"></span>
-
-
+                    ANTHONY
                 </div>
                 <div class="mainTitle">
-
                     HANSEN
-
                 </div>
                 <div class="subTitle">
 
                     SOFTWARE DEVELOPER
                 </div>
-                <button class="btn btn-primary mt-3">CONTACT ME</button>
+                <a class="btn btn-primary mt-3" href="#contact">CONTACT ME</a>
 
                 <div class="socialMed">
                     <a href="#">
@@ -105,9 +101,8 @@
 
     <!-- All Sections Below -->
     <main class="container">
-        <section class="section-page" id="about">
-
-            <div class="row p-4">
+        <section class="aboutSection" id="about">
+            <div class="row">
                 <h1>About Me</h1>
                 <div class="col-12 col-md-4">
                     <picture>
@@ -143,7 +138,7 @@
                             <div class="col-12 col-md-6">
                                 <span>Email:</span>
                                 <span>
-                                    <a href="mailto:dane">Tony@example.com</a>
+                                    <a href="mailto:tonyh1977@gmail.com">tonyh1977@gmail.com</a>
                                 </span>
                             </div>
                             <div class="col-12">
@@ -159,7 +154,7 @@
                 </div>
             </div>
         </section>
-        <section class="section-page" id="skills">
+        <section class="skillsSection" id="skills">
             <div class="row p-3">
                 <div class="col-12">
                     <h1>MY SKILLS</h1>
@@ -220,7 +215,7 @@
             </div>
         </section>
 
-        <section class="section-page" id="codingChallenges">
+        <section class="codingChSection" id="codingChallenges">
             <div class="row p-3">
                 <div class="col-12">
                     <h1>Coding Challenges</h1>
@@ -355,7 +350,7 @@
 
 
 
-        <section class="section-page" id="projects">
+        <section class="projectsSection" id="projects">
             <div class="row p-3">
                 <h1>Projects</h1>
             </div>
@@ -418,10 +413,10 @@
 
 
         </section>
-        <section class="section-page" id="blog">
+        <section class="blogSection" id="blog">
             <h1>Blog</h1>
         </section>
-        <section class="section-page" id="contact">
+        <section class="contactSection" id="contact">
             <h1>Contact</h1>
             <div class="p-3 border border-2 rounded shadow-lg contactFormDiv" id="formContainingDiv">
                 <form name="contactForm" class="row g-3 p-2" netlify data-netlify-recaptcha="true">
@@ -510,40 +505,39 @@
         </section>
     </main>
 
-    <footer class="footer mt-auto py-3">
-        <div class="container-fluid">
-            <div class="row row-cols-1 row-cols-lg-3 gy-2">
-                <div class="col d-flex justify-content-center justify-content-lg-start order-last order-lg-first">
-                    <div>
-                        <span>&copy;2022</span><span> Anthony Hansen | tony@example.com</a></span>
-                    </div>
-                </div>
-                <div class="col d-flex justify-content-center myFooterCenter">
-                    Anthony Hansen
-                </div>
-                <div class="col d-flex justify-content-center justify-content-lg-end">
-                    <div class="row">
-                        <div class="col social">
-                            <a href="#">
-                                <i class="fab fa-linkedin fa-2x" aria-hidden="true"></i>
-                            </a>
-                        </div>
-                        <div class="col social">
-                            <a href="#">
-                                <i class="fab fa-github fa-2x" aria-hidden="true"></i>
-                            </a>
-                        </div>
-                        <div class="col social">
-                            <a href="#">
-                                <i class="fab fa-twitter fa-2x" aria-hidden="true"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-
+       <footer class="footer myFooter mt-auto py-3">
+           <div class="container-fluid">
+               <div class="row row-cols-1 row-cols-lg-3 gy-2">
+                   <div class="col d-flex justify-content-center justify-content-lg-start order-last order-lg-first">
+                       <div>
+                           <span>&copy;2022</span><span> Anthony Hansen | tony@example.com</a></span>
+                       </div>
+                   </div>
+                   <div class="col d-flex justify-content-center myFooterCenter">
+                       Anthony Hansen
+                   </div>
+                   <div class="col d-flex justify-content-center justify-content-lg-end">
+                       <div class="row">
+                           <div class="col social">
+                               <a href="#">
+                                   <i class="fab fa-linkedin fa-2x" aria-hidden="true"></i>
+                               </a>
+                           </div>
+                           <div class="col social">
+                               <a href="#">
+                                   <i class="fab fa-github fa-2x" aria-hidden="true"></i>
+                               </a>
+                           </div>
+                           <div class="col social">
+                               <a href="#">
+                                   <i class="fab fa-twitter fa-2x" aria-hidden="true"></i>
+                               </a>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </footer>
 
     <!-- Modals -->
     <!-- bugtracker modal -->

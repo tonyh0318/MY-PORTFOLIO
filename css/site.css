@@ -10,6 +10,9 @@
     --ah-font-size: 1.2rem;
     --ah-font-weight: 400;
     --ah-line-height: 1.5;
+    --ah-footer-color: #004aad;
+    --ah-light-color: #eeeeee;
+
 }
 
 
@@ -37,19 +40,43 @@ h1,
 .myNav {
     background-color: #004aad;
     font-size: 1.5rem;
-    
+
 }
 
 .myNavContainer {
     margin-left: 0rem;
-    
+
 }
 
 .myLogoNav {
-  
+
     height: 119rem;
     width: 119rem;
 
+}
+
+.aboutSection {
+    padding-top: 140px;
+}
+
+.skillsSection {
+    padding-top: 120px;
+}
+
+.codingChSection {
+    padding-top: 120px;
+}
+
+.projectsSection {
+    padding-top: 120px;
+}
+
+.blogSection {
+    padding-top: 140px;
+}
+
+.contactSection {
+    padding-top: 140px;
 }
 
 p {
@@ -66,6 +93,15 @@ p {
     color: #ffffff;
 }
 
+footer .social>a {
+    color: var(--ah-light-color);
+    opacity: .75;
+}
+
+footer .social>a:hover {
+    color: var(--ah-secondary-color);
+    opacity: .90;
+}
 
 body {
     font-family: var(--ah-body-font);
@@ -118,11 +154,11 @@ body {
     letter-spacing: .09rem;
 }
 
-.socialMed{
+.socialMed {
 
     padding-top: 2rem;
     letter-spacing: .5rem;
-    
+
 }
 
 /* sizing the logo for the header */
@@ -138,7 +174,25 @@ body {
 
 
 
+.myFooterLeft {
+    font-size: 0.75rem;
+    padding-left: 0;
+    margin-top: auto;
+    padding: auto;
+}
 
+.myFooterCenter {
+    font-size: 1.75rem;
+    padding-left: 0;
+    margin-top: auto;
+    font-weight: bold;
+}
+
+.myFooterRight {
+    font-size: 0.75rem;
+    padding-left: 0;
+    margin-top: auto;
+}
 
 
 
